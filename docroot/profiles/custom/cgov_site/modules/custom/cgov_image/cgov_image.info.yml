@@ -17,6 +17,7 @@ dependencies:
   - image
   - image_widget_crop
   - imagemagick
+  - jsonapi_extras
   - language
   - media
   - node

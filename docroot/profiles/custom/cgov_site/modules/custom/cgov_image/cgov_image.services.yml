@@ -12,3 +12,4 @@ services:
  # Defines a service of which returns the associated crop for  given image style
   cgov_image.image_tools:
     class: Drupal\cgov_image\CgovImageTools
+    arguments: ['@entity_type.manager']

@@ -45,6 +45,9 @@ install:
   - content_translation
   - serialization
   - jsonapi
+  - jsonapi_extras
+  - consumers
+  - consumer_image_styles
   - admin_toolbar
   - admin_toolbar_tools
   - admin_toolbar_links_access_filter

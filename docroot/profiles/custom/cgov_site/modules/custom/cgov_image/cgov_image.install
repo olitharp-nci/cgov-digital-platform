@@ -29,6 +29,9 @@ function cgov_image_install() {
 
   // Install permissions for this module.
   _cgov_image_install_permissions($tools);
+
+  $image_tools = \Drupal::service('cgov_image.image_tools');
+  $image_tools->addImageStylesToDefaultConsumer();
 }
 
 /**
@@ -75,3 +78,11 @@ function cgov_image_update_8002() {
     $result = $service->import(['cgov_image']);
 }
 
+/**
+ * Update for Prototyping Gatsby.
+ *
+ */
+function cgov_image_update_8003() {
+  $image_tools = \Drupal::service('cgov_image.image_tools');
+  $image_tools->addImageStylesToDefaultConsumer();
+}
