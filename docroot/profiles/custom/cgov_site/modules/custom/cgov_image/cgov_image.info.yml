@@ -9,6 +9,7 @@ dependencies:
   - content_moderation
   - content_translation
   - crop
+  - consumer_image_styles
   - embed
   - entity_browser
   - entity_embed
