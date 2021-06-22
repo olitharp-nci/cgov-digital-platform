@@ -64,13 +64,13 @@ paratest:
     path: '${docroot}/modules/custom'
     class: null
     file: null
-    procs: 4
+    procs: 1
   -
     config: '${repo.root}/phpunit.xml'
     path: '${docroot}/profiles/custom/cgov_site'
     class: null
     file: null
-    procs: 4
+    procs: 1
 command-hooks:
   frontend-reqs:
     dir: '${docroot}/profiles/custom/cgov_site/themes/custom/cgov'
