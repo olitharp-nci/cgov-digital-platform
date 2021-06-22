@@ -8,6 +8,12 @@ export PATH=${COMPOSER_BIN}:$PATH
 git config --global user.name "Acquia Cloud"
 git config --global user.email "noreply@acquia.com"
 
+## Test to figure out os
+uname -a
+cat /etc/*-release
+lsb_release -a
+hostnamectl
+
 # Create MySQL DB.
 mysql -u root -proot -e "CREATE DATABASE IF NOT EXISTS drupal"
 
